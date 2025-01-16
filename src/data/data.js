@@ -2,7 +2,7 @@
 
 const data = {
     name: "Ben Gibson",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    bio: "Undergraduate Architectural Student at University of Calgary passionate about environmentally oriented sustainable design",
     contact: {
         email: "john.doe@gmail.com",
         phone: "+12345678910",
