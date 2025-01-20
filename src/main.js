@@ -6,7 +6,6 @@ const cubes = [
   "./cubeDrawings/cube1.webp",
   "./cubeDrawings/cube2.webp",
   "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
 ];
 
 const trees = [
@@ -22,22 +21,28 @@ document.querySelector("#app").innerHTML = `
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
     </section>
-
     <section id="projects">
       <div id="project-row">
-      Model 1
+      Cadavre Exquis: LIVE FOR ART
         <div class="three-model">
-          <div id="model1"></div>
+          <a href="./cadavreexquis/collage.png" target="new">
+            <img src="./cadavreexquis/collage.png" alt="random image" width="400" height="300" id="model1">
+          </a>
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+            <a href="./cadavreexquis/tagging.png" target="new">
+              <img src="./cadavreexquis/tagging.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./cadavreexquis/manifesto.png" target="new">
+              <img src="./cadavreexquis/manifesto.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./cadavreexquis/sources.png" target="new">
+              <img src="./cadavreexquis/sources.png" alt="random image" width="400" height="300">
+            </a>
+            
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">A Cadavre Exquis is a manifestation and collaboration of ideas, marrying multiple modes of thinking to create a cohesive whole out of pieces that may not initially seem like they fit together. This piece, entitled LIVE FOR ART, combines different artistic formes and types of human expression into a single piece, demonstating the beauty surrounding the natural world.</h4>
         </div>
       </div>
 

@@ -96,16 +96,17 @@ h1 {
 #model2,
 #model3 {
   height: 300px;
-  width: 300px;
+  width: 464px;
   margin-right: 3em;
   margin-left: 6em;
   border: 1px solid #ccc;
+  justify-content: center;
 }
 
 img {
   /* Image dimensions and margin */
   height: 120px;
-  width: 120px;
+  width: 189px;
   margin: 0.5em;
 }
 
