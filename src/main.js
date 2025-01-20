@@ -25,8 +25,8 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis: LIVE FOR ART
         <div class="three-model">
-          <a href="./public/cadavreexquis/collage.png" target="new">
-            <img src="./public/cadavreexquis/collage.png" alt="random image" width="400" height="300" id="model1">
+          <a href="./cadavreexquis/collage.png" target="new">
+            <img src="./cadavreexquis/collage.png" alt="random image" width="400" height="300" id="model1">
           </a>
         </div>
         <div id="images-description">
