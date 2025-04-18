@@ -23,7 +23,7 @@ document.querySelector("#app").innerHTML = `
     </section>
     <section id="projects">
       <div id="project-row">
-        Cadavre Exquis: LIVE FOR ART
+        <h3>Cadavre Exquis: LIVE FOR ART</h3>
         <div class="three-model">
           <a href="./cadavreexquis/collage.png" target="new">
             <img src="./cadavreexquis/collage.png" alt="random image" width="400" height="300" id="model1">
@@ -47,12 +47,10 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Interoperability: Nidoking
+      <h3>Interoperability: Nidoking</h3>
         <div class="three-model">
           <div id="model2"></div>
         </div>
-        
-
         <div id="images-description">
           <div id="images">
             <a href="./Interop/Nidoking Matrix.png" target="new">
@@ -71,7 +69,7 @@ document.querySelector("#app").innerHTML = `
 
 
       <div id="project-row">
-      Object Design: Midnight Oil
+      <h3>Object Design: Midnight Oil</h3>
         <div class="three-model">
           <div id="model3"></div>
         </div>
@@ -87,13 +85,13 @@ document.querySelector("#app").innerHTML = `
               <img src="./obdes/Process Chart.png" alt="random image" width="400" height="300">
             </a>
           </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
+          <h4 id="description">For object design I created Midnight Oil, a campy, gothic lantern that has to be continually fed with blood to continue burning, requiring artists to literally pour their blood into their work.</h4>
         </div>
       </div>
 
 
       <div id="project-row">
-      Pavilion: Bastion
+      <h3>Pavilion: Bastion</h3>
         <div class="three-model">
           <div id="model4"></div>
         </div>
@@ -116,25 +114,22 @@ document.querySelector("#app").innerHTML = `
 
 
     <div id="project-row">
-      Portfolio World: Solus Nox
+      <h3>Portfolio World: Solus Nox</h3>
         <div class="three-model">
-          <a href="./cadavreexquis/collage.png" target="new">
-            <img src="./cadavreexquis/collage.png" alt="random image" width="400" height="300" id="model1">
+          <a href="./solusnox/Axo.png" target="new">
+            <img src="./solusnox/Axo.png" alt="random image" width="400" height="300" id="model1">
           </a>
         </div>
         <div id="images-description">
           <div id="images">
-            <a href="./solusnox/Axo.png" target="new">
-              <img src="./solusnox/Axo.png" alt="random image" width="400" height="300">
+            <a href="./solusnox/game 6.png" target="new">
+              <img src="./solusnox/game 6.png" alt="random image" width="400" height="300">
             </a>
             <a href="./solusnox/Game 2.png" target="new">
               <img src="./solusnox/Game 2.png" alt="random image" width="400" height="300">
             </a>
             <a href="./solusnox/Game 4.png" target="new">
               <img src="./solusnox/Game 4.png" alt="random image" width="400" height="300">
-            </a>
-            <a href="./solusnox/game 6.png" target="new">
-              <img src="./solusnox/game 6.png" alt="random image" width="400" height="300">
             </a>
           </div>
           <h4 id="description">Solus Nox is a virtual environment created for the purpose of showcasing work in a digital, playable format. Uploaded as a playable game on spatial.io, it allows users to explore a dreamy, ethereal world where they can interact and explore my work.</h4>
@@ -144,10 +139,10 @@ document.querySelector("#app").innerHTML = `
 
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
-      <li>Phone: ${data.contact.phone}</li>
+      <!--<li>Phone: ${data.contact.phone}</li>
       <li>LinkedIn: <a href="${data.contact.linkedin}">${
   data.contact.linkedin
-}</a></li>
+}</a></li>-->
       <li>GitHub: <a href="${data.contact.github}">${
   data.contact.github
 }</a></li>
