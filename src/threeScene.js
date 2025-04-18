@@ -56,9 +56,9 @@ export function createThreeScene(containerSelector, objPath) {
           child.geometry.computeVertexNormals();
           child.material = new THREE.MeshStandardMaterial({
             color: 0x000000, // Default material color
-            wireframe: true, // toggle wireframe
+            wireframe: false, // toggle wireframe
             transparent: true, // toggle transparency
-            opacity: 0.5, // change level of transparency
+            opacity: 0.8, // change level of transparency
           });
         }
       });

@@ -23,7 +23,7 @@ document.querySelector("#app").innerHTML = `
     </section>
     <section id="projects">
       <div id="project-row">
-      Cadavre Exquis: LIVE FOR ART
+        Cadavre Exquis: LIVE FOR ART
         <div class="three-model">
           <a href="./cadavreexquis/collage.png" target="new">
             <img src="./cadavreexquis/collage.png" alt="random image" width="400" height="300" id="model1">
@@ -47,37 +47,97 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Model 2
+      Interoperability: Nidoking
         <div class="three-model">
           <div id="model2"></div>
         </div>
+        
+
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
+            <a href="./Interop/Nidoking Matrix.png" target="new">
+              <img src="./Interop/Nidoking Matrix.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./Interop/Torus Matrix.png" target="new">
+              <img src="./Interop/Torus Matrix.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./Interop/Pavilion Matrix.png" target="new">
+              <img src="./Interop/Pavilion Matrix.png" alt="random image" width="400" height="300">
+            </a>
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          <h4 id="description">This project explored interoperability, the relationship between different softwares and modes of working. The base form was modelled in Blender, then imported into Rhino using a variety of settings to explore the advantages and disadvantages of each.</h4>
         </div>
       </div>
 
+
       <div id="project-row">
-      Model 3
+      Object Design: Midnight Oil
         <div class="three-model">
           <div id="model3"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+            <a href="./obdes/3D.png" target="new">
+              <img src="./obdes/3D.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./obdes/Phys.png" target="new">
+              <img src="./obdes/Phys.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./obdes/Process Chart.png" target="new">
+              <img src="./obdes/Process Chart.png" alt="random image" width="400" height="300">
+            </a>
           </div>
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
+        </div>
+      </div>
+
+
+      <div id="project-row">
+      Pavilion: Bastion
+        <div class="three-model">
+          <div id="model4"></div>
+        </div>
+        <div id="images-description">
+          <div id="images">
+            <a href="./pavilion/phys.png" target="new">
+              <img src="./pavilion/phys.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./pavilion/interior.jpg" target="new">
+              <img src="./pavilion/interior.jpg" alt="random image" width="400" height="300">
+            </a>
+            <a href="./pavilion/3d.png" target="new">
+              <img src="./pavilion/3d.png" alt="random image" width="400" height="300">
+            </a>
+          </div>
+          <h4 id="description">Bastion is formed from over 100 hexagonal pillars rising out of the ground. The form is reminiscent of basalt columns, echoing the natural world and giving man-made form to natural structure and texture.</h4>
+        </div>
+      </div>
+    </section>
+
+
+    <div id="project-row">
+      Portfolio World: Solus Nox
+        <div class="three-model">
+          <a href="./cadavreexquis/collage.png" target="new">
+            <img src="./cadavreexquis/collage.png" alt="random image" width="400" height="300" id="model1">
+          </a>
+        </div>
+        <div id="images-description">
+          <div id="images">
+            <a href="./solusnox/Axo.png" target="new">
+              <img src="./solusnox/Axo.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./solusnox/Game 2.png" target="new">
+              <img src="./solusnox/Game 2.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./solusnox/Game 4.png" target="new">
+              <img src="./solusnox/Game 4.png" alt="random image" width="400" height="300">
+            </a>
+            <a href="./solusnox/game 6.png" target="new">
+              <img src="./solusnox/game 6.png" alt="random image" width="400" height="300">
+            </a>
+          </div>
+          <h4 id="description">Solus Nox is a virtual environment created for the purpose of showcasing work in a digital, playable format. Uploaded as a playable game on spatial.io, it allows users to explore a dreamy, ethereal world where they can interact and explore my work.</h4>
         </div>
       </div>
     </section>
@@ -96,6 +156,7 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/tree.obj");
-createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+
+createThreeScene("#model2", "/3DModels/project2/Nidoking.obj");
+createThreeScene("#model3", "/3DModels/project3/Lantern.obj");
+createThreeScene("#model4", "/3DModels/project4/Bastion.obj");
